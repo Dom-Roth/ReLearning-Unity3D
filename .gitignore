@@ -1,0 +1,6 @@
+.idea
+/Library/PackageCache/*
+/Library/ShaderCache/*
+/Library/Artifacts/*
+/Logs/*
+*.cache
