@@ -2,5 +2,6 @@
 /Library/PackageCache/*
 /Library/ShaderCache/*
 /Library/Artifacts/*
+/Temp/*
 /Logs/*
 *.cache
