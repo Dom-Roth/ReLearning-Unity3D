@@ -5,3 +5,8 @@
 /Temp/*
 /Logs/*
 *.cache
+PackageCache
+ShaderCache
+StateCache
+Logs
+.vs
