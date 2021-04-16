@@ -57,9 +57,13 @@
      <Compile Include="Assets\_Gloomy_Animal\Script\CharacterSelect.cs" />
      <Compile Include="Assets\Scripts\PlayerControls.cs" />
      <Compile Include="Assets\Scripts\CoinRotation.cs" />
+     <Compile Include="Assets\Scripts\GlobalTime.cs" />
      <Compile Include="Assets\_Gloomy_Animal\Script\MouseOrbitImproved.cs" />
      <Compile Include="Assets\Scripts\GlobalCoins.cs" />
-     <Compile Include="Assets\Scripts\GlobalTime.cs" />
+     <Compile Include="Assets\Scripts\Respawning.cs" />
+     <Compile Include="Assets\Scripts\ObstacleCollide.cs" />
+     <Compile Include="Assets\Scripts\LevelComplete.cs" />
+     <Compile Include="Assets\Scripts\PauseGame.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity 2021.1.1f1/Editor/2020.3.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
