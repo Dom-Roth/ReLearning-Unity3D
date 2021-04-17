@@ -8,6 +8,7 @@ public class Respawning : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        GlobalCoins.coinCount = 0;
         SceneManager.LoadScene(0);
     }
 }
