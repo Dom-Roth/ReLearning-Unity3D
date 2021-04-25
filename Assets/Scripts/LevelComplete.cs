@@ -27,6 +27,13 @@ public class LevelComplete : MonoBehaviour
         fadeOut.SetActive(true);
         player.GetComponent<PlayerControls>().enabled = false;
         yield return new WaitForSeconds(3);
-        
+        GlobalLevel.levelNumber += 1;
+        SaveGame();
+        SceneManager.LoadScene(2);
+    }
+
+    void SaveGame()
+    {
+        PlayerPrefs.SetInt("LoadLevelNum", GlobalLevel.levelNumber);
     }
 }
